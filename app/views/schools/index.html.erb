@@ -1,0 +1,5 @@
+<ul>
+    <% @schools.each do |s| %>
+        <li><%= link_to s do %><%= s.name %><% end %></li>
+    <% end %>
+</ul>
